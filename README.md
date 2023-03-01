@@ -40,6 +40,11 @@ The annotations are saved as a [JSON](http://www.json.org/) file.
 smart_labelme  # just open gui
 ```
 
+or
+```bash
+python labelme/__main__.py
+```
+
 ### Command Line Arguments
 - `--output` specifies the location that annotations will be written to. Annotations will be stored in this directory with a name that corresponds to the image that the annotation was made on.
 - The first time you run labelme, it will create a config file in `~/.labelmerc`. You can edit this file and the changes will be applied the next time that you launch labelme. If you would prefer to use a config file from another location, you can specify this file with the `--config` flag.
