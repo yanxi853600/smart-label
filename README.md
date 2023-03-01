@@ -1,16 +1,3 @@
-<h1 align="center">
-  <img src="labelme/icons/icon.png"><br/>Smart LabelMe
-</h1>
-
-<h4 align="center">
-  Video / Image Annotation (Polygon, Semantic mask, Classification) with Python
-</h4>
-
-<br/>
-
-<div align="center">
-  <img src="resources/SemanticSegmentation.png" width="70%">
-</div>
 
 ## Description
 
@@ -23,19 +10,6 @@ It is written in Python and uses Qt for its graphical interface.
 
 <i>Auto tracking of polygons between frames</i>
 <img src="resources/Tracking.gif" width="70%" />   
-
-
-## Features
-
-- [x] Image annotation for polygon, rectangle, circle, line and point.
-- [x] Image flag annotation for classification and cleaning.
-- [x] Auto-contouring for fast polygon annotation.
-- [x] Auto tracking to track and copy polygon annotations between frames.
-- [x] Scripts for semantic segmentation creation from polygonal annotations.
-- [x] Video annotation. 
-- [x] GUI customization (predefined labels / flags, auto-saving, label validation, etc).
-- [x] Exporting VOC-format dataset for semantic/instance segmentation.
-- [x] Exporting COCO-format dataset for instance segmentation.
 
 
 ## Requirements
@@ -51,7 +25,7 @@ Build package using python setup tool.
 Install the package on your system using pip.
 
 ```bash
-git clone https://github.com/bhavyaajani/smart-labelme
+git clone https://github.com/yanxi853600/smart-label
 cd smart-labelme
 python setup.py build
 pip install .
@@ -75,27 +49,8 @@ smart_labelme  # just open gui
 
 ## Acknowledgement
 
-This repo is the fork of [wkentaro/labelme](https://github.com/wkentaro/labelme).
+This repo is the fork of [bhavyaajani/smart-labelme](https://github.com/bhavyaajani/smart-labelme).
+And do some adjustment inside.
 
 
-## Cite This Project
 
-If you use this project in your research or wish to refer to the baseline results published in the README, please use the following BibTeX entry.
-
-```bash
-@misc{smart-labelme2020,
-  author =       {Bhavya Ajani},
-  title =        {{Smart-labelme: Video / Image Annotation (Polygon, Semantic mask, Classification) with Python}},
-  howpublished = {\url{https://github.com/bhavyaajani/smart-labelme}},
-  year =         {2020}
-}
-```
-
-```bash
-@misc{labelme2016,
-  author =       {Kentaro Wada},
-  title =        {{labelme: Image Polygonal Annotation with Python}},
-  howpublished = {\url{https://github.com/wkentaro/labelme}},
-  year =         {2016}
-}
-```
